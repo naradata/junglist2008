@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Brush Script MT', cursive;
+  background: url('background.JPG') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+}
+
+.sidebar {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px black;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.description {
+  flex: 2;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about-me {
+  flex: 1;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.articles {
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.articles ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.articles li {
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}

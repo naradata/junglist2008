@@ -27,11 +27,13 @@ h2 {
 nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 nav li {
-  margin: 1rem 0;
-  line-height: 1.4;
+  margin: 0;
 }
 
 nav a {

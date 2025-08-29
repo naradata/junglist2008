@@ -76,4 +76,5 @@ nav a:hover {
 
 .posts a:hover {
   text-decoration: underline;
+  color: #666;
 }

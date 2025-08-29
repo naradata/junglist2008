@@ -21,7 +21,7 @@ h1 {
 
 a, a:visited {
   color: #111;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {

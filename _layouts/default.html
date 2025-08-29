@@ -5,6 +5,13 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="/style.css">
 </head>
+  
+<body>
+  <main>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {{ content }}
+  </main>
+
   <footer>
     <nav class="footer-nav">
       <ul>
@@ -17,10 +24,5 @@
     </nav>
   </footer>
 
-<body>
-  <main>
-    <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
-  </main>
 </body>
 </html>

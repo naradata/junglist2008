@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+--
+layout: default
+title: "posts"
+--
+
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-9">
@@ -7,8 +14,17 @@
 </head>
 <body>
     <main>
-        <div class="posts">
-            <a href="history.html">I am invincible in these sunglasses</a>
+        <ul class="posts">
+
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <strong>{{ post.title }}</strong>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
         </div>
 
     </main>

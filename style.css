@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 .posts a {
-  color: #000;
+  color: #000 !important;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -76,5 +76,5 @@ nav a:hover {
 
 .posts a:hover {
   text-decoration: underline;
-  color: #666;
+  color: #666 !important;
 }

@@ -107,9 +107,39 @@ nav a:hover {
   font-weight: bold;
 }
 
-.page-title {
+.page-title { 
   text-align: center;
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav a {
+  font-weight: bold;
+  color: 111;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
 }

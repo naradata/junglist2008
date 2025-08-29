@@ -1,15 +1,11 @@
-<!DOCTYPE html>
+---
+layout: default
+title: "posts"
+---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-9">
-    <title>posts</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
-        <ul class="posts">
+<h1>posts</h1>
 
+<ul class="posts">
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">
@@ -18,9 +14,3 @@
     </li>
   {% endfor %}
 </ul>
-
-        </div>
-
-    </main>
-</body>
-</html>

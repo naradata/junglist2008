@@ -63,14 +63,17 @@ nav a:hover {
   text-align: center;
 }
 
+.posts li {
+  margin: 1rem 0;
+}
+
 .posts a {
-  color: #fff;          
+  color: #000;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-  transition: color 0.3s;
 }
 
 .posts a:hover {
-  color: #ffcc00;       
+  text-decoration: underline;
 }

@@ -99,3 +99,10 @@ nav a:hover {
   margin-bottom: 1rem;
   text-align: center;
 }
+
+.post-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}

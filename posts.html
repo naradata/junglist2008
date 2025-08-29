@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "posts"
 ---
 
@@ -8,7 +8,7 @@ title: "posts"
 <ul class="posts">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url | relative_url }}">
+      <a class="post-link" href="{{ post.url | relative_url }}">
         <strong>{{ post.title }}</strong>
       </a>
     </li>
